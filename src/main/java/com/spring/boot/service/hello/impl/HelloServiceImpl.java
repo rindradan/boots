@@ -24,9 +24,4 @@ public class HelloServiceImpl implements HelloService
     {
         return "This is index page";
     }
-
-    public static void main(String[] args) throws Exception
-    {
-        SpringApplication.run(HelloServiceImpl.class, args);
-    }
 }
