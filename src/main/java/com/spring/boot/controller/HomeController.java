@@ -1,11 +1,11 @@
-package com.spring.boot.controller.hello;
+package com.spring.boot.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class HelloController
+public class HomeController
 {
     @RequestMapping("/")
     @ResponseBody
